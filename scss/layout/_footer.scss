@@ -1,0 +1,21 @@
+.impressum {
+  border-top: solid;
+  border-bottom: solid;
+  border-width: medium;
+  padding: 2rem 4rem;
+  height: min-content;
+  background-image: url(../../img/wrapper/bgcard.jpg);
+
+  &__wrapper {
+    display: flex;
+  }
+  &__addresse {
+    list-style: none;
+    width: 21rem;
+  }
+  &__text {
+    margin: 2rem;
+    align-content: center;
+    width: 20rem;
+  }
+}

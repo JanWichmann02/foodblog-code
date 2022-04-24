@@ -1,0 +1,27 @@
+.header {
+  height: 90vh;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: darken;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    @include centerhv;
+    text-align: center;
+  }
+
+  &__img {
+  }
+
+  &__heading {
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+}
+
+.parallax {
+  &__header {
+    background-image: url(../../img/wrapper/skyline.jpg);
+  }
+}

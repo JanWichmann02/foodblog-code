@@ -1,0 +1,41 @@
+.aboutme {
+  height: min-content;
+  background-image: url(../../img/wrapper/bgcard.jpg);
+  padding: 4rem;
+  position: relative;
+
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 4rem;
+  }
+
+  &__content {
+    background-color: white;
+    border-radius: 12px;
+    //box-shadow: 10px 13px 14px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    width: 60ch;
+  }
+
+  &__text {
+    padding: 4rem 4rem 0;
+
+    &--joke {
+      font-size: 0.8rem;
+    }
+  }
+  &__social {
+    padding: 1rem 4rem 4rem;
+  }
+  &__img {
+    border-radius: 50%;
+    height: 20rem;
+    margin-left: 3rem;
+    align-self: center;
+  }
+}
+.fa-instagram:visited {
+  color: black;
+}

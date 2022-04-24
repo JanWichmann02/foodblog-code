@@ -1,0 +1,26 @@
+.parallax {
+  &__innenstadt {
+    background-image: url(../../img/wrapper/innenstadt.jpg);
+  }
+  &__westend {
+    background-image: url(../../img/wrapper/westend.jpg);
+  }
+  &__nordend {
+    background-image: url(../../img/wrapper/nordend.jpg);
+  }
+  &__bornheim {
+    background-image: url(../../img/wrapper/bornheim.jpg);
+  }
+  &__sachsenhausen {
+    background-image: url(../../img/wrapper/sachsenhausen.jpg);
+  }
+  &__übermich {
+    background-image: url(../../img/wrapper/giorgi-iremadze-VAfNNB9zcfQ-unsplash.jpg);
+  }
+  &__kontakt {
+    background-image: url(../../img/wrapper/louis-droege-Anj4y79wq_Q-unsplash.jpg);
+  }
+  &__merch {
+    background-image: url(../../img/wrapper/hert-niks-5YrxZ1HKhjs-unsplash.jpg);
+  }
+}

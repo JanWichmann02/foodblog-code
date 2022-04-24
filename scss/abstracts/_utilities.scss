@@ -1,0 +1,30 @@
+.flex {
+  display: flex;
+}
+
+.bubble {
+  position: relative;
+  background: #ffffff;
+  color: black;
+  font-family: Comic Sans MS;
+  font-size: 20px;
+  line-height: 120px;
+  text-align: center;
+  width: 250px;
+  height: 120px;
+  border-radius: 10px;
+  padding: 0px;
+}
+.bubble:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 0;
+  z-index: 1;
+  border-style: solid;
+  border-color: #ffffff transparent;
+  border-width: 20px 20px 0;
+  bottom: -20px;
+  left: 70%;
+  margin-left: -20px;
+}

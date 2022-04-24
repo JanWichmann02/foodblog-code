@@ -1,0 +1,49 @@
+.kontakt {
+  background-image: url(../../img/wrapper/bgcard.jpg);
+  background-size: cover;
+
+  &__container {
+    border-radius: 5px;
+    width: 47vw;
+    margin: auto;
+    padding: 5rem 0;
+  }
+  label {
+    background-color: #f1ecf2;
+    padding: 3px 20px;
+    border-radius: 15px;
+  }
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 18px;
+    resize: none;
+    background: #e5e1e6;
+    //border-radius: 12px;
+    //box-shadow: 10px 13px 14px 0px rgba(0, 0, 0, 0.75);
+    //box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+
+  input[type="submit"] {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #e5e1e6;
+    color: #787172;
+    font-size: 1.2rem;
+    font-family: VT323;
+  }
+
+  input[type="submit"]:hover {
+    background-image: url(../../img/wrapper/ashkan-forouzani-89Hx_F0t-8I-unsplash.jpg);
+    background-size: cover;
+    color: white;
+  }
+}

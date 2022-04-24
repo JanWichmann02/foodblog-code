@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  h1 {
+    font-size: 2rem;
+  }
+  a:visited {
+    color: black;
+  }
+
+  @media only screen and (max-width: 800px) {
+    font-size: 80%;
+  }
+}
+
+.container {
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 13rem repeat(2, 1fr) 15vw;
+  grid-template-rows: 25vh repeat(3, 1fr);
+}

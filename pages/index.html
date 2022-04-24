@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodblog</title>
+    <link rel="stylesheet" href="../scss/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="../node_modules/universal-parallax/dist/universal-parallax.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6a2652665c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section>
+      <div class="topnav" id="myTopnav">
+        <a href="../pages/index.html">Home</a>
+        <a href="../pages/restaurants.html">Restaurants</a>
+        <a href="../pages/merch.html">Merch</a>
+        <a href="#übermich">Über Mich</a>
+        <a href="#kontakt">Kontakt</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </section>
+    <header class="header">
+      <div class="parallax parallax__header"></div>
+      <div class="header__wrapper">
+        <img
+          class="header__img"
+          src="../img/wrapper/Food 's Mood (1).png"
+          alt=""
+        />
+        <h1>Foodblog Frankfurt</h1>
+      </div>
+    </header>
+    <section>
+      <div class="spacer"></div>
+    </section>
+    <section class="restaurants__wrapper" id="übermich">
+      <div class="parallax parallax__übermich"></div>
+      <h1>Über Mich</h1>
+    </section>
+    <section class="aboutme">
+      <div class="aboutme__wrapper">
+        <div class="aboutme__content">
+          <p class="aboutme__text">
+            Hey, ich bin Jan und eigentlich komme ich aus Neu-Isenburg.
+            Verbringe aber meistens meine Zeit in Frankfurt. Ich liebe gutes
+            Essen und ich liebe Frankfurt. Deshalb kam ich auf die Idee, meine
+            Erfahrungen mit euch zu teilen, damit ihr nie wieder eine schlechte
+            Foodexperience habt. Denn gutes FOOD sorgt für gute MOOD! <br />
+            <span class="aboutme__text--joke">
+              Ps: Geschmäcker sind verschieden. Reviews ohne Gewähr. Ich hafte
+              für keine geschmacklichen Entäuschungen!&#128516;</span
+            >
+          </p>
+
+          <p class="aboutme__social">
+            Folge mir doch auf Insta
+            <a class="aboutme__link" href="https://www.instagram.com/"
+              ><i class="fa-brands fa-instagram"></i></a
+            >, um keine Reviews zu verpassen. Wenn du Wünsche hast, welches
+            Restaurant ich als nächstes ausprobieren soll, schreibe mir doch auf
+            Insta oder sende mir eine Email gleich hier unten &darr;. Vielen
+            Dank!
+          </p>
+        </div>
+        <img class="aboutme__img" src="../img/me/me.jpg" alt="" />
+      </div>
+    </section>
+    <section class="restaurants__wrapper" id="kontakt">
+      <div class="parallax parallax__kontakt"></div>
+      <h1>Kontakt</h1>
+    </section>
+    <section class="kontakt">
+      <div class="kontakt__container">
+        <form>
+          <label for="vname">Vorname</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Vorname..."
+          />
+
+          <label for="nname">Nachname</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Nachname..."
+          />
+
+          <label for="email">E-Mail</label>
+          <input
+            type="text"
+            id="email"
+            name="lastname"
+            placeholder="E-Mail..."
+          />
+
+          <label for="subject">Nachricht</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Schreibe etwas..."
+            style="height: 200px"
+          ></textarea>
+
+          <input type="submit" value="Senden" />
+        </form>
+      </div>
+    </section>
+    <footer class="impressum">
+      <div class="impressum__wrapper">
+        <ul class="impressum__addresse">
+          <li>Jan Wichmann</li>
+          <li>Ernst-Reuter-Straße 17</li>
+          <li>63263</li>
+          <li>Neu-Isenburg</li>
+        </ul>
+        <div class="impressum__text"></div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="../node_modules/universal-parallax/dist/universal-parallax.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.6.1/dist/simpleParallax.min.js"></script>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+    <script>
+      new universalParallax().init();
+    </script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        direction: "horizontal",
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>

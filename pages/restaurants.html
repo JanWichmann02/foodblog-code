@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurants</title>
+    <link rel="stylesheet" href="../scss/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="../node_modules/universal-parallax/dist/universal-parallax.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6a2652665c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section>
+      <div class="topnav" id="myTopnav">
+        <a href="../pages/index.html">Home</a>
+        <a href="../pages/restaurants.html">Restaurants</a>
+        <a href="../pages/merch.html">Merch</a>
+        <a href="../pages/index.html#übermich">Über Mich</a>
+        <a href="../pages/index.html#kontakt">Kontakt</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </section>
+    <section class="restaurants" id="restaurants">
+      <section class="restaurants__wrapper">
+        <div class="parallax parallax__innenstadt"></div>
+        <h1>Innenstadt</h1>
+      </section>
+      <section class="card">
+        <div class="card__wrapper">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="../img/food/teuer.jpg" alt="" style="width: 100%" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../img/inter/innen1.jpg" alt="" style="width: 100%" />
+              </div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <div class="card__content">
+            <span class="card__tag">Italienisch</span>
+            <span class="card__tag">Salat</span>
+            <span class="card__tag">Innenstadt</span>
+            <h2>Restaurant #1</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              velit enim ut quisquam a autem cumque impedit eius debitis fugiat!
+            </p>
+            <span><a href="">Mehr lesen &#8618;</a></span>
+          </div>
+        </div>
+        <div class="card__wrapper">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="../img/food/edel.jpg" alt="" style="width: 100%" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../img/inter/innen2.jpg" alt="" style="width: 100%" />
+              </div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <div class="card__content">
+            <span class="card__tag">Mehresfrüchte</span>
+            <span class="card__tag">Mediteran</span>
+            <span class="card__tag">Innenstadt</span>
+            <h2>Restaurant #2</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              velit enim ut quisquam a autem cumque impedit eius debitis fugiat!
+            </p>
+            <span><a href="">Mehr lesen &#8618;</a></span>
+          </div>
+        </div>
+        <div class="card__wrapper">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="../img/food/weisse1.jpg" alt="" style="width: 100%" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../img/inter/innen3.jpg" alt="" style="width: 100%" />
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <div class="card__content">
+            <span class="card__tag">2 Sterne</span>
+            <span class="card__tag">Fleisch</span>
+            <span class="card__tag">Innenstadt</span>
+            <h2>Restaurant #3</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              velit enim ut quisquam a autem cumque impedit eius debitis fugiat!
+            </p>
+            <span><a href="">Mehr lesen &#8618;</a></span>
+          </div>
+        </div>
+      </section>
+      <section class="restaurants__wrapper">
+        <div class="parallax parallax__westend"></div>
+        <h1>Westend</h1>
+      </section>
+      <section class="card">
+        <div class="card__wrapper">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="../img/food/eibrot.jpg" alt="" style="width: 100%" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../img/inter/west1.jpg" alt="" style="width: 100%" />
+              </div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <div class="card__content">
+            <span class="card__tag">Label</span>
+            <span class="card__tag">Label</span>
+            <span class="card__tag">Westend </span>
+            <h2>Restaurant #4</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              velit enim ut quisquam a autem cumque impedit eius debitis fugiat!
+            </p>
+            <span><a href="">Mehr lesen &#8618;</a></span>
+          </div>
+        </div>
+        <div class="card__wrapper">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  src="../img/food/chickenweiss.jpg"
+                  alt=""
+                  style="width: 100%"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img src="../img/inter/west2.jpg" alt="" style="width: 100%" />
+              </div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <div class="card__content">
+            <span class="card__tag">Label</span>
+            <span class="card__tag">Label</span>
+            <span class="card__tag">Westend</span>
+            <h2>Restaurant #5</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              velit enim ut quisquam a autem cumque impedit eius debitis fugiat!
+            </p>
+            <span><a href="">Mehr lesen &#8618;</a></span>
+          </div>
+        </div>
+        <div class="card__wrapper">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="../img/food/curry.jpg" alt="" style="width: 100%" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../img/inter/west3.jpg" alt="" style="width: 100%" />
+              </div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <div class="card__content">
+            <span class="card__tag">Label</span>
+            <span class="card__tag">Label</span>
+            <span class="card__tag">Westend</span>
+            <h2>Restaurant #6</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              velit enim ut quisquam a autem cumque impedit eius debitis fugiat!
+            </p>
+            <span><a href="">Mehr lesen &#8618;</a></span>
+          </div>
+        </div>
+      </section>
+      <section class="restaurants__wrapper">
+        <div class="parallax parallax__nordend"></div>
+        <h1>Nordend</h1>
+      </section>
+      <section class="card">
+        <div class="card__wrapper">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  src="../img/food/salatgrün.jpg"
+                  alt=""
+                  style="width: 100%"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img src="../img/inter/nord1.jpg" alt="" style="width: 100%" />
+              </div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <div class="card__content">
+            <span class="card__tag">Label</span>
+            <span class="card__tag">Label</span>
+            <span class="card__tag">Nordend</span>
+            <h2>Restaurant #7</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              velit enim ut quisquam a autem cumque impedit eius debitis fugiat!
+            </p>
+            <span><a href="">Mehr lesen &#8618;</a></span>
+          </div>
+        </div>
+        <div class="card__wrapper">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="../img/food/obst.jpg" alt="" style="width: 100%" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../img/inter/nord2.jpg" alt="" style="width: 100%" />
+              </div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <div class="card__content">
+            <span class="card__tag">Label</span>
+            <span class="card__tag">Label</span>
+            <span class="card__tag">Nordend</span>
+            <h2>Restaurant #8</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              velit enim ut quisquam a autem cumque impedit eius debitis fugiat!
+            </p>
+            <span><a href="">Mehr lesen &#8618;</a></span>
+          </div>
+        </div>
+        <div class="card__wrapper">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="../img/food/eigrün.jpg" alt="" style="width: 100%" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../img/inter/nord3.jpg" alt="" style="width: 100%" />
+              </div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <div class="card__content">
+            <span class="card__tag">Label</span>
+            <span class="card__tag">Label</span>
+            <span class="card__tag">Nordend</span>
+            <h2>Restaurant #9</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              velit enim ut quisquam a autem cumque impedit eius debitis fugiat!
+            </p>
+            <span><a href="">Mehr lesen &#8618;</a></span>
+          </div>
+        </div>
+      </section>
+      <section class="restaurants__wrapper">
+        <div class="parallax parallax__bornheim"></div>
+        <h1>Bornheim</h1>
+      </section>
+      <section class="card">
+        <div class="card__wrapper">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="../img/food/burger.jpg" alt="" style="width: 100%" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../img/inter/born1.jpg" alt="" style="width: 100%" />
+              </div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <div class="card__content">
+            <span class="card__tag">Label</span>
+            <span class="card__tag">Label</span>
+            <span class="card__tag">Bornheim</span>
+            <h2>Restaurant #10</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              velit enim ut quisquam a autem cumque impedit eius debitis fugiat!
+            </p>
+            <span><a href="">Mehr lesen &#8618;</a></span>
+          </div>
+        </div>
+        <div class="card__wrapper">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  src="../img/food/chickenasian.jpg"
+                  alt=""
+                  style="width: 100%"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img src="../img/inter/born2.jpg" alt="" style="width: 100%" />
+              </div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <div class="card__content">
+            <span class="card__tag">Label</span>
+            <span class="card__tag">Label</span>
+            <span class="card__tag">Bornheim</span>
+            <h2>Restaurant #11</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              velit enim ut quisquam a autem cumque impedit eius debitis fugiat!
+            </p>
+            <span><a href="">Mehr lesen &#8618;</a></span>
+          </div>
+        </div>
+        <div class="card__wrapper">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="../img/food/pommes.jpg" alt="" style="width: 100%" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../img/inter/born3.jpg" alt="" style="width: 100%" />
+              </div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <div class="card__content">
+            <span class="card__tag">Label</span>
+            <span class="card__tag">Label</span>
+            <span class="card__tag">Bornheim</span>
+            <h2>Restaurant #12</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              velit enim ut quisquam a autem cumque impedit eius debitis fugiat!
+            </p>
+            <span><a href="">Mehr lesen &#8618;</a></span>
+          </div>
+        </div>
+      </section>
+      <section class="restaurants__wrapper">
+        <div class="parallax parallax__sachsenhausen"></div>
+        <h1>Sachsenhausen</h1>
+      </section>
+      <section class="card">
+        <div class="card__wrapper">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="../img/food/nudel.jpg" alt="" style="width: 100%" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../img/inter/sachs1.jpg" alt="" style="width: 100%" />
+              </div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <div class="card__content">
+            <span class="card__tag">Label</span>
+            <span class="card__tag">Label</span>
+            <span class="card__tag">Sachsenhausen</span>
+            <h2>Restaurant #13</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              velit enim ut quisquam a autem cumque impedit eius debitis fugiat!
+            </p>
+            <span><a href="">Mehr lesen &#8618;</a></span>
+          </div>
+        </div>
+        <div class="card__wrapper">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="../img/food/salat.jpg" alt="" style="width: 100%" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../img/inter/sachs2.jpg" alt="" style="width: 100%" />
+              </div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <div class="card__content">
+            <span class="card__tag">Label</span>
+            <span class="card__tag">Label</span>
+            <span class="card__tag">Sachsenhausen</span>
+            <h2>Restaurant #14</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              velit enim ut quisquam a autem cumque impedit eius debitis fugiat!
+            </p>
+            <span><a href="">Mehr lesen &#8618;</a></span>
+          </div>
+        </div>
+        <div class="card__wrapper">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  src="../img/food/asiansea.jpg"
+                  alt=""
+                  style="width: 100%"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img src="../img/inter/sachs3.jpg"" alt="" style="width: 100%"
+                />
+              </div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <div class="card__content">
+            <span class="card__tag">Label</span>
+            <span class="card__tag">Label</span>
+            <span class="card__tag">Sachsenhausen</span>
+            <h2>Restaurant #15</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              velit enim ut quisquam a autem cumque impedit eius debitis fugiat!
+            </p>
+            <span><a href="">Mehr lesen &#8618;</a></span>
+          </div>
+        </div>
+      </section>
+    </section>
+    <footer class="impressum">
+      <div class="impressum__wrapper">
+        <ul class="impressum__addresse">
+          <li>Jan Wichmann</li>
+          <li>Ernst-Reuter-Straße 17</li>
+          <li>63263</li>
+          <li>Neu-Isenburg</li>
+        </ul>
+        <div class="impressum__text"></div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="../node_modules/universal-parallax/dist/universal-parallax.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.6.1/dist/simpleParallax.min.js"></script>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+    <script>
+      new universalParallax().init();
+    </script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        direction: "horizontal",
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>

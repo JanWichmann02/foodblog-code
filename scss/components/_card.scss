@@ -1,0 +1,54 @@
+.card {
+  height: min-content;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 4rem;
+  background-image: url(../../img/wrapper/bgcard.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 4rem;
+
+  &__wrapper {
+    border: solid;
+    height: 38rem;
+    border-radius: 4px;
+    width: 23rem;
+    padding: 0 0 1.4rem;
+    border-width: thin;
+    background-color: white;
+    //box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+
+  &__img {
+    height: 100%;
+  }
+
+  &__content {
+    width: 18rem;
+    margin: 1rem auto;
+    line-height: $line-hight;
+    a:visited {
+      color: black;
+    }
+  }
+
+  &__tag {
+    background-color: #d3d3d3;
+    border-radius: 10px;
+    padding: 3px 8px;
+    font-size: 13px;
+    margin-right: 0.2rem;
+  }
+
+  h2 {
+    margin: 0.4rem 0 0.5rem;
+  }
+}
+
+.swiper {
+  width: 22.9rem;
+  height: 22.9rem;
+  border-start-end-radius: 4px;
+}
